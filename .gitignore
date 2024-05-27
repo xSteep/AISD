@@ -1,0 +1,105 @@
+# Скомпилированные объектные файлы
+*.slo
+*.lo
+*.o
+*.obj
+
+# Скомпилированные динамические библиотеки
+*.so
+*.dylib
+*.dll
+
+# Скомпилированные статические библиотеки
+*.lai
+*.la
+*.a
+*.lib
+
+# Командные файлы
+*.ncb
+*.sdf
+*.suo
+*.pdb
+*.idb
+
+# Компиляционные файлы
+*.pch
+*.mod
+*.cmd
+
+# Пакетированные объекты
+*.tlb
+*.tli
+*.tlh
+*.eXe
+*.exe
+*.out
+
+# Директория сборки
+_build/
+build/
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Каталог кэша CMake
+CMakeFiles/
+
+# Каталог отладчика
+debug/
+Debug/
+debug_public/
+Release/
+release/
+DebugPublic/
+docs/
+prev_build/
+prev_build_public/
+obj/
+libs/
+lib/
+install/
+installs/
+package/
+packages/
+_ide/
+
+# Каталоги проектов
+.idea/
+.vscode/
+*.code-workspace
+
+# Каталоги IDE
+.DS_Store
+*.swp
+*~
+*.vs
+.vscode/
+.vs/
+
+# Сгенерированные файлы
+*.bak
+*.swp
+*.swo
+*.swn
+*.tmp
+*.log
+*.tags
+
+# Скрытые файлы
+*~
+
+# Пользовательские настройки
+userprefs.proj
+*.user
+
+# Артефакты тестирования
+test-results/
